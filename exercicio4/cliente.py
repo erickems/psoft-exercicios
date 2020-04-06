@@ -32,31 +32,5 @@ while True:
 		break
 	else:
 		print(mensagem_servidor)	
-# def cliente_no_ar():
-# 	while True:
-# 		msg = str(input(''))
-		
-# 		if msg == 'BYE':
-# 			cliente.send(msg.encode())
-# 			mensagem_server = cliente.recv(1024).decode('utf-8').rstrip()
-# 			print(mensagem_server)
-# 			cliente.close()
-# 			break
-
-# 		cliente.send(msg.encode())
-# 		resposta = cliente.recv(1024).decode('utf-8').rstrip()
-# 		print(resposta)
-	
-# def mensagem_servidor():
-# 	while True:
-# 		mensagem = cliente.recv(1024).decode('utf-8').rstrip()
-# 		if len(mensagem) <= 0:
-# 			break
-# 		print(mensagem)
-
-
-# mensagem_servidor()
-# t1 = threading.Thread(target=cliente_no_ar, args=())
-# t1.start()
 
 	
